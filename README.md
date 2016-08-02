@@ -4,8 +4,8 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/hv6uyc059rqbc6fj?svg=true)](https://ci.appveyor.com/project/madskristensen/extensibilitytools)
 
 <!-- Update the VS Gallery link after you upload the VSIX-->
-Download this extension from the [VS Gallery](https://visualstudiogallery.msdn.microsoft.com/[GuidFromGallery])
-or get the [CI build](http://vsixgallery.com/extension/SSMSX.1123e54f-64e7-4ee4-bc5b-bdfec68c52ec/).
+<!-- Download this extension from the [VS Gallery](https://visualstudiogallery.msdn.microsoft.com/)
+or get the [CI build](http://vsixgallery.com/extension/SSMSX.1123e54f-64e7-4ee4-bc5b-bdfec68c52ec/).-->
 
 ---------------------------------------
 
