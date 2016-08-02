@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="SSMSX.Mister Magoo.1123e54f-64e7-4ee4-bc5b-bdfec68c52ec" Version="1.0" Language="en-US" Publisher="Mister Magoo" />
+    <Identity Id="SSMSX.1123e54f-64e7-4ee4-bc5b-bdfec68c52ec" Version="1.0.3" Language="en-US" Publisher="Mister Magoo" />
     <DisplayName>SSMSX</DisplayName>
-    <Description>Empty VSIX Project.</Description>
+    <Description xml:space="preserve">SSMS 2016 Editor Extension project for adding quick fixes to SSMS using MEF</Description>
+    <License>Resources\LICENSE</License>
+    <Icon>Resources\Icon.png</Icon>
+    <PreviewImage>Resources\Preview.png</PreviewImage>
+    <Tags>SSMS,Editor,Last,Edit</Tags>
   </Metadata>
   <Installation>
-    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0]" />
+    <InstallationTarget Id="ssms" Version="[13.0]" />
   </Installation>
   <Dependencies>
     <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
   </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%|" />
+  </Assets>
 </PackageManifest>

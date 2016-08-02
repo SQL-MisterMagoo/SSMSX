@@ -11,23 +11,24 @@
 <body>
     <div class="container">
         <div id="header">
-            <h1>Getting Started</h1>
-            <h2>Visual Studio Extensions</h2>
+            <h1>SSMSX</h1>
+            <h2>Sql Server Management Studio Editor Extensions</h2>
         </div>
 
         <div id="main_content">
             <div id="lpanel">
-                <h1>Creating a Visual Studio Extension</h1>
+                <h1>Adding quick fixes</h1>
 
-                <p>This project enables developers to create an extension for Visual Studio. The solution contains a VSIX project that packages the extension into a VSIX file. This file is used to install an extension for Visual Studio.</p>
+                <p>This project enables developers/dbas to create simple extensions for SSMS. The solution contains a VSIX project that packages the extension into a VSIX file. This file is used to install an extension for SSMS.</p>
                 <h2>Add new features</h2>
 
                 <ol>
                     <li>Right-click the project node in Solution Explorer and select Add&gt;New Item.</li>
-                    <li>In the Add New Item dialog box, expand the Extensibility node under Visual C# or Visual Basic.</li>
-                    <li>Choose from the available item templates: Visual Studio Package, Editor Items (Classifier, Margin, Text Adornment, Viewport Adornment), Command, Tool Window, Toolbox Control, and then click Add.</li>
+                    <li>In the Add New Item dialog box, expand the Extensibility node under Visual C#.</li>
+                    <li>Choose from the available item templates: Editor Items (Classifier, Margin, Text Adornment, Viewport Adornment) and then click Add.</li>
                 </ol>
 
+                <p>Don't try to add a Package, Command, Tool Window or Toolbox Control as SSMS does not support this right now.</p>
                 <p>The files for the template that you selected are added to the project. You can start adding functionality to your item template, press F5 to run the project, or add additional item templates.</p>
 
                 <h2>Run and debug</h2>
@@ -36,10 +37,10 @@
                 <ul>
                     <li>Build the extension from the VSIX project.</li>
                     <li>Create a VSIX package from the VSIX project.</li>
-                    <li>When debugging, start an experimental instance of Visual Studio with the VSIX package installed.</li>
+                    <li>Run the VSIX installer.</li>
                 </ul>
 
-                <p>In the experimental instance of Visual Studio you can test out the functionality of your extension without affecting your Visual Studio installation.</p>
+                <p>You will need to increment the version number every time you build or the VSIX installer will not install the extension.</p>
 
             </div>
             <div id="rpanel">
@@ -53,10 +54,7 @@
                         <li><a target="_blank" href="http://aka.ms/fwg1ft">Channel 9 videos on extensibility</a><br />Watch videos from the product team on Visual Studio extensibility.</li>
                         <li><a target="_blank" href="http://aka.ms/ui0qn6">Extensibility Tools 2015</a><br />Install an optional helper tool that adds extra IDE support for extension authors.</li>
                     </ol>
-                    <h1>Give us feedback</h1>
-                    <ul>
-                        <li><a target="_blank" href="http://aka.ms/uonulm">Submit a new feature idea or suggestion</a></li>
-                    </ul>
+                    
                 </div>
             </div>
         </div>
