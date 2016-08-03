@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="SSMSX.1123e54f-64e7-4ee4-bc5b-bdfec68c52ec" Version="1.0.3" Language="en-US" Publisher="Mister Magoo" />
+    <Identity Id="SSMSX.1123e54f-64e7-4ee4-bc5b-bdfec68c52ec" Version="1.1" Language="en-US" Publisher="Mister Magoo" />
     <DisplayName>SSMSX</DisplayName>
     <Description xml:space="preserve">SSMS 2016 Editor Extension project for adding quick fixes to SSMS using MEF</Description>
+    <MoreInfo>https://github.com/SQL-MisterMagoo/SSMSX</MoreInfo>
     <License>Resources\LICENSE</License>
     <Icon>Resources\Icon.png</Icon>
     <PreviewImage>Resources\Preview.png</PreviewImage>
