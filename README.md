@@ -4,8 +4,7 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/b34fshjbal0vse57?svg=true)](https://ci.appveyor.com/project/SQL-MisterMagoo/ssmsx)
 
 <!-- Update the VS Gallery link after you upload the VSIX-->
-<!-- Download this extension from the [VS Gallery](https://visualstudiogallery.msdn.microsoft.com/)
-or get the [CI build](http://vsixgallery.com/extension/SSMSX.1123e54f-64e7-4ee4-bc5b-bdfec68c52ec/).-->
+Download this extension from the [CI build](http://vsixgallery.com/extension/SSMSX.1123e54f-64e7-4ee4-bc5b-bdfec68c52ec/)
 
 ---------------------------------------
 
