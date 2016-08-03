@@ -51,6 +51,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="art\new-window-not-yet-edited.png" />
+    <Content Include="art\window-has-been-edited.png" />
     <Content Include="Resources\LICENSE">
       <IncludeInVSIX>true</IncludeInVSIX>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
