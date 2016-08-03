@@ -1,15 +1,10 @@
-﻿//------------------------------------------------------------------------------
-// <copyright file="InfoMargin.cs" company="Company">
-//     Copyright (c) Company.  All rights reserved.
-// </copyright>
-//------------------------------------------------------------------------------
-
-using Microsoft.VisualStudio.PlatformUI;
-using Microsoft.VisualStudio.Text.Editor;
+﻿
 using System;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
+using Microsoft.VisualStudio.PlatformUI;
+using Microsoft.VisualStudio.Text.Editor;
 
 namespace SSMSX
 {
