@@ -11,7 +11,7 @@ namespace SSMSX
         public const string Name = "SSMSX";
         public const string Description = "SSMS 2016 Editor Extension project for adding quick fixes to SSMS using MEF";
         public const string Language = "en-US";
-        public const string Version = "1.1";
+        public const string Version = "1.2";
         public const string Author = "Mister Magoo";
         public const string Tags = "SSMS,Editor,Last,Edit";
     }

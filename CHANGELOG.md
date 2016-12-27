@@ -2,6 +2,7 @@
 
 - [ ] Custom tab naming?
 - [ ] Query logging?
+- [ ] Query Finished Notifications?
 - [ ] Unchecked DML Warning?
 
 Features that have a checkmark are complete and available for
@@ -12,6 +13,12 @@ download in the
 
 These are the changes to each version that has been released
 on the official Visual Studio extension gallery.
+
+## 1.2
+
+**2016-12-27**
+
+- [x] VSIX Installable on SSMS 2017 RC1
 
 ## 1.1
 
